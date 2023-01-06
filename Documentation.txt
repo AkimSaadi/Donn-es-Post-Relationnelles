@@ -1,0 +1,13 @@
+Le fichier Recettes.xml décrivant la structure du Site de recettes de cuisine (recettes, catégories, sous-catégories, auteurs, ingrédients, produits).
+Le fichier Recettes.dtd est la DTD du fichier Recettes.xml
+Le fichier RecetteSchema.xsd est le schéma du fichier Recettes.xml
+Le fichier XMLtoHTMLs.xslt est la feuille de style permettant de produire les pages du site web de recette à partir de Recettes.xml,
+le fichier fiche-auteur.xslt génère la page HTML contenant la liste des auteurs,
+le fichier fiche-categorie.xslt génère la page HTML contenant la liste des categories,
+le fichier fiche-ingredient.xslt génère la page HTML contenant la liste des ingrédients,
+le fichier fiche-produit.xslt génère la page HTML contenant la liste des produits,
+le fichier fiche-recette.xslt génère la page HTML contenant la liste des recettes.
+Les fichiers cssAuteur, cssCategorie, cssIndex, cssIngredient, cssProduit, cssRecette servent de feuille de style pour leur HTML respective.
+Le fichier XQuery génère une page xHTML listant les auteurs et leurs recettes.
+Pour le XQuery il y a la fonction doc qui vient de xPath 2.0, le fait que le xQuery ajoute l'espace de nom du parent en préfixe aux expressions
+qui n'en ont pas est une conséquence de xPath2.

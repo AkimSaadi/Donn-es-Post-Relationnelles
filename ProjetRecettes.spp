@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+	<Folder FolderName="XML Files" ExtStr="xml;cml;math;rdf;smil;svg;wml">
+		<File FilePath="Recettes.xml" HomeFolder="Yes"/>
+	</Folder>
+	<Folder FolderName="XSL Files" ExtStr="xsl;xslt">
+		<File FilePath="fiche-auteur.xslt" HomeFolder="Yes"/>
+		<File FilePath="fiche-categorie.xslt" HomeFolder="Yes"/>
+		<File FilePath="fiche-ingredient.xslt" HomeFolder="Yes"/>
+		<File FilePath="fiche-produit.xslt" HomeFolder="Yes"/>
+		<File FilePath="fiche-recette.xslt" HomeFolder="Yes"/>
+		<File FilePath="XMLtoHTMLs.xslt" HomeFolder="Yes"/>
+	</Folder>
+	<Folder FolderName="XQuery Files" ExtStr="xq;xql;xquery;xqu">
+		<File FilePath="XQuery.xquery" HomeFolder="Yes"/>
+	</Folder>
+	<Folder FolderName="HTML Files" ExtStr="html;htm;xhtml;asp"/>
+	<Folder FolderName="DTD/Schemas" ExtStr="dtd;dcd;xdr;biz;xsd">
+		<File FilePath="Recettes.dtd" HomeFolder="Yes"/>
+		<File FilePath="RecetteSchema.xsd" HomeFolder="Yes"/>
+	</Folder>
+	<Folder FolderName="Entities" ExtStr="ent"/>
+	<File FilePath="C:\Users\akims\Desktop\amu.png" HomeFolder="Yes"/>
+	<File FilePath="cssAuteur.css" HomeFolder="Yes"/>
+	<File FilePath="cssCategorie.css" HomeFolder="Yes"/>
+	<File FilePath="cssIndex.css" HomeFolder="Yes"/>
+	<File FilePath="cssIngredient.css" HomeFolder="Yes"/>
+	<File FilePath="cssProduit.css" HomeFolder="Yes"/>
+	<File FilePath="cssRecette.css" HomeFolder="Yes"/>
+</Project>

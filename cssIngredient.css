@@ -1,0 +1,79 @@
+*{
+font-family:Verdana, Arial, Helvetica;
+}
+body{
+background-color : #ddfcd9;
+color : #3D8E33;
+}
+#navigation {
+list-style: none ;
+margin : 0 ;
+padding: 0 ;
+}
+#navigation li {
+background: #3D8E33 ;
+color : #FFFFFF;
+display : inline;
+margin-right : 1px;
+margin-bottom : 1px;
+}
+#navigation li a {
+background: #3D8E33 ;
+color: #FFFFFF ;
+font: 1em "Trebuchet MS",Arial,sans-serif ;
+line-height: 1em ;
+text-align: center ;
+text-decoration: none ;
+padding: 4px 20px ;
+border: 1px solid #2e6e26 ;
+}
+#navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+  background: #2e6e26 ;
+  text-decoration: underline ;
+}
+
+ul#liste {
+list-style: none ;
+margin : 0 ;
+padding: 0 ;
+border: 7px dashed #3D8E33;
+width : 25em;
+}
+
+ul#liste a{
+color :  #2e6e26;
+font: 1em "Trebuchet MS",Arial,sans-serif ;
+text-decoration: none ;
+margin-left : 15px;
+}
+
+#ingredient ul li a{
+color :  #2e6e26;
+font: 1em "Trebuchet MS",Arial,sans-serif ;
+text-decoration: none ;
+}
+ul#liste a:hover, ul#liste a:focus, ul#liste a:active,
+#ingredient ul li a:hover, #ingredient ul li a:focus, #ingredient ul li a:active {
+  text-decoration: underline ;
+}
+
+ul#liste li {
+list-style: none ;
+margin : 0 ;
+padding: 0 ;
+}
+
+h1{
+color : #2e6e26;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+}
+
+h2 {
+color : #2e6e26;
+}
+
+#ingredient{
+border-bottom : 1px dashed #3D8E33;
+}
